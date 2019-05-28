@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/stopwatch.h
+string
+-
+
+/home/ben/workspaces/c++/thread_experiments/include/stopwatch.h
+string
+-
+
+/home/ben/workspaces/c++/thread_experiments/src/pthread_Mutex.cpp
+pthread.h
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+../include/stopwatch.h
+/home/ben/workspaces/c++/thread_experiments/include/stopwatch.h
+
+/home/ben/workspaces/c++/thread_experiments/src/stopwatch.cpp
+string
+-
+time.h
+-
+stdlib.h
+-
+stdio.h
+-
+iostream
+-
+stopwatch.h
+/home/ben/workspaces/c++/thread_experiments/src/stopwatch.h
+
